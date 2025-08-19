@@ -15,15 +15,24 @@ int main()
     printf("Type a operator:\n");
     scanf("%s", &operator);
 
-    if (operator == '-'){
+    if (operator == '-')
+    {
         printf("%f", a - b);
-    } else if (operator == '*'){
+    }
+    else if (operator == '*')
+    {
         printf("%f", a * b);
-    } else if (operator == '+') {
+    }
+    else if (operator == '+')
+    {
         printf("%f", a + b);
-    } else if (operator == '/') {
+    }
+    else if (operator == '/')
+    {
         printf("%f", a / b);
-    } else {
+    }
+    else
+    {
         char text[] = "Not valid operator";
         printf("%s", text);
     }

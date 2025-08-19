@@ -6,13 +6,20 @@ int main()
     float b = 89;
     char operator = '+';
 
-    if (operator == '-'){
+    if (operator == '-')
+    {
         printf("%f", a - b);
-    } else if (operator == '*'){
+    }
+    else if (operator == '*')
+    {
         printf("%f", a * b);
-    } else if (operator == '+') {
+    }
+    else if (operator == '+')
+    {
         printf("%f", a + b);
-    } else {
+    }
+    else
+    {
         char text[] = "Not valid operator";
         printf("%s", text);
     }
